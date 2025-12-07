@@ -180,7 +180,7 @@ class Dev(Configuration):
           "handlers": ["console"],
           "level": "DEBUG",
       },
-  }
+    }
 
 class Prod(Dev):
     DEBUG = False
